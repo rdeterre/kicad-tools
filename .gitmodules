@@ -6,4 +6,4 @@
 	url = https://github.com/obra/kicad-automation-scripts
 [submodule "upstream/kiplot"]
 	path = upstream/kiplot
-	url = https://github.com/johnbeard/kiplot
+	url = https://github.com/rdeterre/kiplot

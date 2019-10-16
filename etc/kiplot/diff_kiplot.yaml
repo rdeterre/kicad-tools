@@ -266,3 +266,11 @@ outputs:
       - layer: Edge.Cuts 
         suffix: Edge_Cuts
 
+  - name: 'position'
+    comment: "Pick and place file"
+    type: position
+    dir: position
+    options:
+      format: ASCII   # CSV or ASCII format
+      units: millimeters  # millimeters or inches
+      separate_files_for_front_and_back: true
