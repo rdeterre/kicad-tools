@@ -9,7 +9,7 @@ DOCKER_CONTAINER="${DOCKER_CONTAINER:-kicad-automation}"
 DOCKER_RUN=${DOCKER_SUDO} ${DOCKER_CMD_PATH} \
  	run \
 	--rm \
-	--interactive --tty \
+	--interactive \
 	${DOCKER_VOLUMES} \
 	${DOCKER_CONTAINER} \
 	$@
